@@ -1,0 +1,1 @@
+<% unless cart.line_items.blank? %><h2>Your Cart</h2><ul>  <%=  render(cart.line_items) %></ul><p>  Total price: <%= to_rub(cart.total_price) %></p><%= button_to 'Empty cart', cart, method: :delete, confirm: 'Are you sure?' %><% end %>
