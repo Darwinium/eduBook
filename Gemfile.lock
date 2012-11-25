@@ -126,7 +126,9 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   debugger
+  debugger-linecache
   jquery-rails
+  linecache19
   rails (= 3.2.8)
   ruby-debug19
   sass-rails (~> 3.2.3)

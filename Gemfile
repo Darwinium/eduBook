@@ -39,3 +39,5 @@ gem 'jquery-rails'
 # To use debugger
 gem 'debugger'
 gem 'ruby-debug19'
+gem 'debugger-linecache'
+gem 'linecache19'
